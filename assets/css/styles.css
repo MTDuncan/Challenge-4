@@ -94,6 +94,7 @@ li:nth-child(odd) {
 
 .question {
   color: #fff5de;
+  font-size: 150%;
 }
 
 .choice {

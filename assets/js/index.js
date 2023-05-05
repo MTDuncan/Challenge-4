@@ -183,8 +183,7 @@ function saveHighscore() {
           time = 0;
         }
         timerEl.textContent = time;
-        sfxWrong.play();
-        feedbackEl.textContent = 'Wrong!';
+                feedbackEl.textContent = 'Wrong!';
       } else {
         feedbackEl.textContent = 'Correct!';
       }
